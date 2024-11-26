@@ -1,0 +1,19 @@
+{% set current_language    = languages[ current_language_code ] %}
+{% set css_classes_flag    = ('wpml-ls-flag ' ~ backward_compatibility.css_classes_flag)|trim %}
+{% set css_classes_native  = ('wpml-ls-native ' ~ backward_compatibility.css_classes_native)|trim %}
+{% set css_classes_display = ('wpml-ls-display ' ~ backward_compatibility.css_classes_display)|trim %}
+{% set css_classes_bracket = ('wpml-ls-bracket ' ~ backward_compatibility.css_classes_bracket)|trim %}
+
+
+<div data-da=".menu__body,479.98,first" class="header__language language-header">
+	{% for language in languages if language.is_current %}
+		<span class="language-header__span _active">
+			{{ language.native_name }}
+		</span>
+	{% endfor %}
+	{% for language in languages if not language.is_current %}
+		<a href="{{ language.url }}" class="language-header__link">
+			{{ language.native_name }}
+		</a>
+	{% endfor %}
+</div>

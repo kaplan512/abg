@@ -1,0 +1,732 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 05:33:36
+* VERSION: 1.4.5
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.28                                |7.4.29
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2022-05-16 17:25:39
+WP VERSION__________: 5.9.3
+DUP VERSION_________: 1.4.5
+DB__________________: 5.7.33
+DB TABLES___________: 44
+DB ROWS_____________: 8,575
+DB FILE SIZE________: 2.49MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.29 | SAPI: litespeed
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache
+DOC ROOT____________: "/home/kxewzuhe/test.abg.dp.ua"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "https://test.test.abg.dp.ua/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/home/kxewzuhe/test.abg.dp.ua/20220516_pbsk_[HASH]_20220516172539_archive.zip"
+SIZE________________: 84.38MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTRACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 05:34:25 - RUNTIME: 48.5402 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 05:34:44
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.3.34 -- Build Server: 5.7.33
+FILE SIZE:	dup-database__[HASH].sql (2.12MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	NOT_SET
+NEW SQL FILE:	[/home/kxewzuhe/test.abg.dp.ua/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	408
+
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_icl_content_status: (0)
+wp_icl_core_status: (0)
+wp_icl_flags: (65)
+wp_icl_languages: (65)
+wp_icl_languages_translations: (4225)
+wp_icl_locale_map: (2)
+wp_icl_message_status: (0)
+wp_icl_mo_files_domains: (114)
+wp_icl_node: (0)
+wp_icl_reminders: (0)
+wp_icl_string_batches: (0)
+wp_icl_string_packages: (1)
+wp_icl_string_positions: (12)
+wp_icl_string_status: (0)
+wp_icl_string_translations: (29)
+wp_icl_strings: (73)
+wp_icl_translate: (160)
+wp_icl_translate_job: (13)
+wp_icl_translation_batches: (2)
+wp_icl_translation_downloads: (0)
+wp_icl_translation_status: (44)
+wp_icl_translations: (151)
+wp_links: (0)
+wp_options: (431)
+wp_postmeta: (1963)
+wp_posts: (254)
+wp_redirection_404: (375)
+wp_redirection_groups: (2)
+wp_redirection_items: (0)
+wp_redirection_logs: (0)
+wp_term_relationships: (69)
+wp_term_taxonomy: (25)
+wp_termmeta: (20)
+wp_terms: (25)
+wp_usermeta: (36)
+wp_users: (1)
+wp_yoast_indexable: (207)
+wp_yoast_indexable_hierarchy: (125)
+wp_yoast_migrations: (23)
+wp_yoast_primary_term: (18)
+wp_yoast_seo_links: (0)
+Removed '44' cache/transient rows
+
+INSERT DATA RUNTIME: 0.4970 sec.
+STEP-2 COMPLETE @ 05:34:44 - RUNTIME: 0.5205 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 05:34:51
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "АСТА БУД ГРУП"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/alicom/alicom.dp.ua/shop8"
+path_new______________: "/home/kxewzuhe/test.abg.dp.ua"
+siteurl_______________: "https://test.test.abg.dp.ua"
+url_old_______________: "https://shop8.alicom.dp.ua"
+url_new_______________: "https://test.test.abg.dp.ua"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_content_status"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_core_status"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_flags"____________________________________[ROWS:    65][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_icl_languages"________________________________[ROWS:    65][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_icl_languages_translations"___________________[ROWS:  4225][PG:   2][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_icl_locale_map"_______________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_icl_message_status"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_mo_files_domains"_________________________[ROWS:   114][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_icl_node"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_reminders"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_batches"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_packages"__________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_icl_string_positions"_________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_icl_string_status"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_string_translations"______________________[ROWS:    29][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_icl_strings"__________________________________[ROWS:    73][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_icl_translate"________________________________[ROWS:   160][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_icl_translate_job"____________________________[ROWS:    13][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_icl_translation_batches"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_icl_translation_downloads"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_icl_translation_status"_______________________[ROWS:    44][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_icl_translations"_____________________________[ROWS:   151][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   431][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  1963][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   254][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_redirection_404"______________________________[ROWS:   375][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_redirection_groups"___________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_redirection_items"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_redirection_logs"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    69][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    25][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    20][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    25][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    36][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_yoast_indexable"______________________________[ROWS:   207][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_yoast_indexable_hierarchy"____________________[ROWS:   125][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_yoast_migrations"_____________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_yoast_primary_term"___________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/alicom/alicom.dp.ua/shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  2:"\/home\/alicom\/alicom.dp.ua\/shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  3:"%2Fhome%2Falicom%2Falicom.dp.ua%2Fshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  4:"\home\alicom\alicom.dp.ua\shop8" =================> "/home/kxewzuhe/test.abg.dp.ua"
+	SEARCH  5:"\\home\\alicom\\alicom.dp.ua\\shop8" =============> "\/home\/kxewzuhe\/public_html"
+	SEARCH  6:"%5Chome%5Calicom%5Calicom.dp.ua%5Cshop8" =========> "%2Fhome%2Fkxewzuhe%2Fpublic_html"
+	SEARCH  7:"//shop8.alicom.dp.ua" ============================> "//test.test.abg.dp.ua"
+	SEARCH  8:"\/\/shop8.alicom.dp.ua" ==========================> "\/\/test.test.abg.dp.ua"
+	SEARCH  9:"%2F%2Fshop8.alicom.dp.ua" ========================> "%2F%2Ftest.test.abg.dp.ua"
+	SEARCH 10:"http://test.test.abg.dp.ua" ================================> "https://test.test.abg.dp.ua"
+	SEARCH 11:"http:\/\/test.test.abg.dp.ua" ==============================> "https:\/\/test.test.abg.dp.ua"
+	SEARCH 12:"http%3A%2F%2Ftest.test.abg.dp.ua" ==========================> "https%3A%2F%2Ftest.test.abg.dp.ua"
+
+EVALUATE TABLE: "wp_yoast_seo_links"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:44 	|	 Rows:8531 	|	 Cells:55189 
+UPDATED:	Tables:8 	|	 Rows:817 	|	 Cells:1002 
+ERRORS:		0 
+RUNTIME:	0.602000 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Auto Deactivated plugins list here: Array
+(
+    [0] => simple-google-recaptcha/simple-google-recaptcha.php
+    [1] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 05:34:52 - RUNTIME: 0.6427 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
